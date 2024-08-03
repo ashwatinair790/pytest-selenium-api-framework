@@ -1,0 +1,24 @@
+#python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#Environment Variables
+
+.env
+
+#IDE Files
+.vscode/
+.idea/
+
+#System Files
+.DS_Store
+Thumbs.db
+
+#Log Files
+*.log
+
+#Dependency directories
+venv/
+.env/
