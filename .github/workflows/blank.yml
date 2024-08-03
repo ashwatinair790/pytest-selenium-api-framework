@@ -21,6 +21,11 @@ jobs:
           pip install -r requirements.txt
         continue-on-error: true  # Optional: Continue even if dependency installation fails
 
+      - name: List installed packages
+        run: pip list
+
       - name: Run tests
         run: |
-          pytest --maxfail=1 --disable-warnings -q
+          pytest --maxfail=1 --disable-warnings -v
+
+    
